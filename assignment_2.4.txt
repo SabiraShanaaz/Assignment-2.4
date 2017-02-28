@@ -1,0 +1,24 @@
+1.Explain the importance of Name node in Hadoop cluster
+
+      *The importance of name node in hadoop cluster is:
+
+          -The namenode acts as the master node.
+
+          -It is used to store metadata of HDFS like the directory tree of all the files 
+                   and it is used to track the file across the clusters.
+
+          -It stores the information about the data nodes like
+                   how many blocks are stored in the nodes,which node holds the data,node locations etc.
+
+          -Name node does not contain the actual data.The actual data is present in the data node.
+
+          -When the name node fails the entire hadoop cluster becomes inaccessible.
+
+          -Name node usually uses a lot of memory.It uses 128GB of RAM.
+
+          -Name node provides high availability.
+
+          -Name node manages the file system namespace and it is used to regulate access to files.
+
+          -name node also performs the opening,closing and renaming files and directories.
+
